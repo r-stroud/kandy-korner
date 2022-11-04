@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 15%;
+  min-width: 22%;
+  min-height: 10%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 2px 0px 2px 10px;
 }
